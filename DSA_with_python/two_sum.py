@@ -13,5 +13,7 @@ class Solution(object):
             
          num_to_index[num] = i
 
-        
-        
+
+# Example usage:
+solution = Solution()
+print(solution.twoSum([2, 7, 11, 15], 9))  # Output: [0, 1]

@@ -5,11 +5,12 @@
  */
 #include <vector>
 #include <climits>
+#include <iostream>
 using namespace std;
 // @lc code=start
 class Solution {
 public:
-    int maxProfit(vector<int>& prices) {
+    int maxProfit(const vector<int>& prices) {
         int min_price = INT_MAX;
         int max_profit = 0;
 
@@ -26,4 +27,18 @@ public:
     }
 };
 // @lc code=end
+// Example usage
+  int main(int argc, char const *argv[])
+  {
+    /* code */
+    Solution solution;
+    cout << solution.maxProfit(
+        vector<int>{7, 1, 5, 3, 6, 4}
+    ) << endl;  // Output: 5
+    cout << solution.maxProfit(
+        vector<int>{7, 6, 9, 3, 1}
+    ) << endl;    // Output: 2
+    return 0;
+  }
+  
 
