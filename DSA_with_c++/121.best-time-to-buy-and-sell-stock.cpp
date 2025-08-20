@@ -37,7 +37,7 @@ public:
     ) << endl;  // Output: 5
     cout << solution.maxProfit(
         vector<int>{7, 6, 9, 3, 1}
-    ) << endl;    // Output: 2
+    ) << endl;    // Output: 3
     return 0;
   }
   
