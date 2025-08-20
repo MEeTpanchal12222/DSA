@@ -23,4 +23,4 @@ class Solution:
 # Example usage:
 solution = Solution()
 print(solution.maxProfit([7, 1, 5, 3, 6, 4]))  # Output: 5
-print(solution.maxProfit([7, 6, 9, 3, 1]))    # Output: 2
+print(solution.maxProfit([7, 6, 9, 3, 1]))    # Output: 3
