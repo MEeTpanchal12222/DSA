@@ -1,8 +1,6 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
-    
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -10,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DSA/DSA_with_c++",
-      "program": "d:/DSA/DSA_with_c++/build/Release/outRelease",
+      "cwd": "d:/DSA/DSA_with_c++(for codeforces)",
+      "program": "d:/DSA/DSA_with_c++(for codeforces)/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
